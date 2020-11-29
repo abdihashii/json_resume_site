@@ -1,0 +1,16 @@
+.resume-grid {
+  margin: 0 auto;
+  width: 960px;
+
+  display: grid;
+  // grid-template-columns: 353px 158px;
+  grid-template-columns: 3fr 1fr;
+  // grid-template-rows: 72px 666px;
+  grid-template-rows: 160px 666px;
+  grid-column-gap: 24px;
+  grid-row-gap: 32px;
+
+  grid-template-areas:
+    'title      avatar'
+    'experience skills';
+}

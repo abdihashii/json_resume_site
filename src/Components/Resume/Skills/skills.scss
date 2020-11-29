@@ -1,0 +1,39 @@
+.skills-panel {
+  color: #73808d;
+  grid-area: skills;
+
+  .skills-basics {
+    margin-bottom: 40px;
+
+    * {
+      margin: 10px 0px 0px;
+    }
+
+    .website {
+      color: #1a7ee2;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .skill-row {
+    margin-bottom: 25px;
+
+    * {
+      margin: 0;
+    }
+
+    .skill-title {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+
+    .skill-keyword {
+      margin-top: 8px;
+      font-size: 1rem;
+    }
+  }
+}

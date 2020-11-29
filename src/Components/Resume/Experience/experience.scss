@@ -1,0 +1,38 @@
+.experience {
+  grid-area: experience;
+
+  .experience-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    color: #73808d;
+  }
+
+  .experience-row {
+    margin-bottom: 35px;
+
+    * {
+      margin: 0;
+    }
+
+    .position-line {
+      font-size: 1.25rem;
+    }
+
+    .company-line {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+
+    .date-line {
+      color: #73808d;
+      font-size: 0.85rem;
+      margin: 10px 0px;
+    }
+
+    .summary-line {
+      font-size: 1rem;
+      line-height: 25px;
+    }
+  }
+}

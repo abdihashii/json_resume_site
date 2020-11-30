@@ -18,12 +18,7 @@ const Skills = () => {
         <p>{email}</p>
         <p>{phone}</p>
         <p>
-          <a
-            className="website"
-            href={`${website}`}
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a href={`${website}`} rel="noreferrer" target="_blank">
             abdirahmanhaji.com
           </a>
         </p>

@@ -4,6 +4,15 @@
 
   padding: 44px 30px 30px;
 
+  a {
+    color: #1a7ee2;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   .resume-grid {
     margin: 0 auto;
 

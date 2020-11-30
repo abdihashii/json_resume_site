@@ -5,7 +5,16 @@ import PropTypes from 'prop-types';
 import { getDateString } from '../../../Factories/DateFactory';
 
 const ExperienceRow = ({ experience }) => {
-  const { position, company, startDate, endDate, area, summary } = experience;
+  const {
+    position,
+    company,
+    startDate,
+    endDate,
+    area,
+    stack,
+    summary,
+    highlights,
+  } = experience;
 
   return (
     <div className="experience-row">
@@ -14,7 +23,16 @@ const ExperienceRow = ({ experience }) => {
       <p className="date-line">
         {startDate} - {endDate}, {getDateString(startDate, endDate)}; {area}
       </p>
+      <p className="stack-line">
+        <span className="stack">Stack: </span>
+        {stack}
+      </p>
       <p className="summary-line">{summary}</p>
+      <p className="highlights-line">
+        {highlights.map((highlight, key) => {
+          return <li {...{ key }}>{highlight}</li>;
+        })}
+      </p>
     </div>
   );
 };

@@ -11,11 +11,13 @@ import './resume.scss';
 
 const Resume = () => {
   return (
-    <div className="resume-grid">
-      <Title />
-      <Avatar />
-      <Experience />
-      <Skills />
+    <div className="resume-wrapper">
+      <div className="resume-grid">
+        <Title />
+        <Avatar />
+        <Experience />
+        <Skills />
+      </div>
     </div>
   );
 };

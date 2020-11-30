@@ -1,16 +1,23 @@
-.resume-grid {
-  margin: 0 auto;
-  width: 960px;
+.resume-wrapper {
+  border-top: 15px solid black;
+  border-bottom: 15px solid black;
 
-  display: grid;
-  // grid-template-columns: 353px 158px;
-  grid-template-columns: 3fr 1fr;
-  // grid-template-rows: 72px 666px;
-  grid-template-rows: 160px 666px;
-  grid-column-gap: 24px;
-  grid-row-gap: 32px;
+  padding: 44px 30px 30px;
 
-  grid-template-areas:
-    'title      avatar'
-    'experience skills';
+  .resume-grid {
+    margin: 0 auto;
+
+    width: 960px;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 160px max-content;
+    grid-column-gap: 24px;
+    grid-row-gap: 32px;
+
+    grid-template-areas:
+      'title      avatar'
+      'experience skills';
+  }
 }

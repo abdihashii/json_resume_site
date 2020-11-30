@@ -15,24 +15,37 @@
       margin: 0;
     }
 
+    p {
+      line-height: 30px;
+      font-size: 1rem;
+    }
+
     .position-line {
       font-size: 1.25rem;
     }
 
     .company-line {
-      font-size: 1rem;
       margin-top: 10px;
+      line-height: normal;
     }
 
     .date-line {
+      line-height: normal;
       color: #73808d;
       font-size: 0.85rem;
       margin: 10px 0px;
     }
 
+    .stack-line {
+      .stack {
+        font-weight: bold;
+      }
+    }
+
     .summary-line {
-      font-size: 1rem;
-      line-height: 25px;
+    }
+
+    .highlights-line {
     }
   }
 }

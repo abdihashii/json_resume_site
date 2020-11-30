@@ -10,7 +10,7 @@ const ProjectRow = ({ project }) => {
       <p>{date}</p>
       <p>{summary}</p>
       <p>
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noreferrer">
           {repo}
         </a>
       </p>

@@ -36,7 +36,7 @@
       "startDate": "Aug 2019",
       "endDate": "Present",
       "area": "Mountain View, CA",
-      "stack": "Stack: Angular, React, Node, Java, MongoDB, SQL, Express, Jest, AWS, and RESTful API's",
+      "stack": "Angular, React, Node, Java, MongoDB, SQL, Express, Jest, AWS, and RESTful API's",
       "summary": "Writing A/B experimentation software to validate new interfaces, designs, and experiments so that product owners deliver great experiences to users",
       "highlights": [
         "Revamping experimentation platform UI to a React-based front end stack"
@@ -49,7 +49,7 @@
       "startDate": "May 2019",
       "endDate": "Aug 2019",
       "area": "San Francisco, CA",
-      "stack": "Stack: React, React Native, Ruby on Rails, JavaScript, RSpec, AWS, GraphQL, and RESTful API's",
+      "stack": "React, React Native, Ruby on Rails, JavaScript, RSpec, AWS, GraphQL, and RESTful API's",
       "summary": "Worked primarily on the Full Stack using React Native on the front-end and Ruby on Rails for the back-end",
       "highlights": [
         "Created API endpoints to allow users to upload and share photos across two independent applications",
@@ -63,7 +63,7 @@
       "startDate": "May 2018",
       "endDate": "Aug 2018",
       "area": "Mountain View, CA",
-      "stack": "Stack: JavaScript, React, Java, Node, AWS, Selenium, and RESTful API's",
+      "stack": "JavaScript, React, Java, Node, AWS, Selenium, and RESTful API's",
       "summary": "Backend engineer speeding login times for Intuit Online customers using Java",
       "highlights": [
         "Testing comprehensive user interfaces on the frontend using automation technologies such as Selenium and React-based frameworks"
@@ -109,14 +109,14 @@
     {
       "title": "React Weather App",
       "date": "",
-      "summary": "Stack: React, Node, HTML, CSS, JavaScript, and AWS",
+      "summary": "React, Node, HTML, CSS, JavaScript, and AWS",
       "repo": "git.io/fjdRz",
       "link": ""
     },
     {
       "title": "Internet of Things Smart Home Controller",
       "date": "",
-      "summary": "Stack: C++, JavaScript, and PHP",
+      "summary": "C++, JavaScript, and PHP",
       "repo": "git.io/fj93n",
       "link": ""
     }
@@ -152,16 +152,8 @@
   ],
   "skills": [
     {
-      "title": "Platforms",
-      "keywords": ["Unix", "Linux", "MacOS"]
-    },
-    {
       "title": "Languages",
       "keywords": ["JavaScript", "HTML", "CSS", "Python", "Ruby", "Java", "SQL"]
-    },
-    {
-      "title": "Tools",
-      "keywords": ["Git", "Jenkins", "JIRA", "GitHub"]
     },
     {
       "title": "Frameworks/Libraries",
@@ -173,6 +165,10 @@
         "NextJs",
         "Rails"
       ]
+    },
+    {
+      "title": "Tools",
+      "keywords": ["Git", "Jenkins", "JIRA", "GitHub"]
     },
     {
       "title": "Database Technologies",
@@ -195,6 +191,10 @@
         "Leadership",
         "Teamwork"
       ]
+    },
+    {
+      "title": "Platforms",
+      "keywords": ["Unix", "Linux", "MacOS"]
     }
   ],
   "languages": [

@@ -9,9 +9,6 @@ import { ResumeContext } from '../../../Contexts/ResumeContext';
 // CSS
 import './avatar.scss';
 
-// Images
-// import abdirahman from '../../../img/haji_yosemite.png';
-
 const Avatar = () => {
   const { urlEndpoint } = useContext(ResumeContext);
 
@@ -35,11 +32,6 @@ const Avatar = () => {
           },
         ]}
       />
-
-      {/* <img
-        src="https://ik.imagekit.io/haji/abdirahmanhaji_com/IMG_2432_ZFrcBTWZ2j.jpeg"
-        alt="it me"
-      /> */}
     </div>
   );
 };

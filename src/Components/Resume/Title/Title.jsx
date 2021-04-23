@@ -11,7 +11,7 @@ const Title = () => {
 
   return (
     <div className="title">
-      <h1 className="header-name">{name}</h1>
+      <h1 className="header-name">{name}'s's's</h1>
       <h3 className="header-label">{label}</h3>
     </div>
   );

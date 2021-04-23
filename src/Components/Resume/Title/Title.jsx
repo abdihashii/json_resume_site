@@ -8,6 +8,7 @@ import './title.scss';
 
 const Title = () => {
   const { name, label } = useContext(ResumeContext);
+
   return (
     <div className="title">
       <h1 className="header-name">{name}</h1>

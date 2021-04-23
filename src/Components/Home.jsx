@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Components
+// Internal components
 import Resume from './Resume/Resume';
 
 // Contexts

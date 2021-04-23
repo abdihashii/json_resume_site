@@ -3,6 +3,9 @@ import React, { createContext } from 'react';
 // Data
 import resume_json from '../data/resume.json';
 
+// ImageKit SDK
+const urlEndpoint = 'https://ik.imagekit.io/haji/abdirahmanhaji_com';
+
 export const ResumeContext = createContext();
 
 export const ResumeContextProvider = ({ children }) => {
@@ -22,6 +25,7 @@ export const ResumeContextProvider = ({ children }) => {
         experiences,
         skills,
         projects,
+        urlEndpoint,
       }}
     >
       {children}

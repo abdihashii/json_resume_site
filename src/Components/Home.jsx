@@ -11,11 +11,6 @@ import './home.scss';
 
 const Home = () => {
   return (
-    <div className="home">
-      <ResumeContextProvider>
-        <Resume />
-      </ResumeContextProvider>
-    </div>
   );
 };
 

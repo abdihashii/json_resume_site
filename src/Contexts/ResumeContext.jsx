@@ -9,9 +9,25 @@ const urlEndpoint = 'https://ik.imagekit.io/haji/abdirahmanhaji_com';
 export const ResumeContext = createContext();
 
 export const ResumeContextProvider = ({ children }) => {
-  const { basics, experiences, skills, projects } = resume_json;
+  const {
+    basics,
+    experiences,
+    skills,
+    projects,
+    education,
+    leadership,
+    interests,
+  } = resume_json;
 
-  const { name, label, email, phone, website, area } = basics;
+  const {
+    name,
+    label,
+    email,
+    phone,
+    website,
+    area,
+    summary: aboutSummary,
+  } = basics;
 
   return (
     <ResumeContext.Provider
@@ -22,9 +38,13 @@ export const ResumeContextProvider = ({ children }) => {
         phone,
         website,
         area,
+        aboutSummary,
         experiences,
         skills,
         projects,
+        education,
+        leadership,
+        interests,
         urlEndpoint,
       }}
     >

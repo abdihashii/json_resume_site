@@ -1,51 +1,12 @@
-.experience {
-  grid-area: experience;
+.experience-content {
+  margin-right: auto;
 
-  .experience-title {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-    color: #73808d;
+  p {
+    margin-bottom: 1rem;
   }
+}
 
-  .experience-row {
-    margin-bottom: 35px;
-
-    * {
-      margin: 0;
-    }
-
-    p {
-      line-height: 30px;
-      font-size: 1rem;
-    }
-
-    .position-line {
-      font-size: 1.25rem;
-    }
-
-    .company-line {
-      margin-top: 10px;
-      line-height: normal;
-    }
-
-    .date-line {
-      line-height: normal;
-      color: #73808d;
-      font-size: 0.85rem;
-      margin: 10px 0px;
-    }
-
-    .stack-line {
-      .stack {
-        font-weight: bold;
-      }
-    }
-
-    .summary-line {
-    }
-
-    .highlights-line {
-    }
-  }
+.experience-date {
+  min-width: 18rem;
+  text-align: right;
 }

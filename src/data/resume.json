@@ -3,10 +3,11 @@
     "name": "Abdirahman Haji",
     "label": "Software Engineer",
     "picture": "",
-    "email": "haji@abdirahmanhaji.com",
+    "email": "abdirahman.haji.13@gmail.com",
+    "email2": "haji@abdirahmanhaji.com",
     "phone": "+1 (952) 215-7370",
     "website": "https://abdirahmanhaji.com",
-    "summary": "",
+    "summary": "I am a professional Software Engineer spending my time between the Bay Area and the Twin Cities. Currently, I am a Software Engineer at Intuit as a full-stack engineer working to create efficient user interfaces and experiences. My passions are in UI and UX. I love to build beautiful products that are easy and fun to use.",
     "area": "San Francisco Bay Area",
     "location": {
       "address": "15233 Galante Ln",
@@ -31,15 +32,30 @@
   "experiences": [
     {
       "company": "Intuit",
-      "position": "Software Engineer",
+      "position": "Software Engineer II",
       "website": "",
-      "startDate": "Aug 2019",
+      "startDate": "Feb 2021",
       "endDate": "Present",
       "area": "Mountain View, CA",
       "stack": "Angular, React, Node, Java, MongoDB, SQL, Express, Jest, AWS, and RESTful API's",
       "summary": "Writing A/B experimentation software to validate new interfaces, designs, and experiments so that product owners deliver great experiences to users",
       "highlights": [
-        "Revamping experimentation platform UI to a React-based front end stack"
+        "Fully re-engineering and re-designing our platform UI front end stack to React from the ground up",
+        "Full-stack software engineer providing our thousands of Intuit engineers, product managers, and marketers the tools of experimentation to help create winning solutions for their customers"
+      ]
+    },
+    {
+      "company": "Intuit",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "Aug 2019",
+      "endDate": "Jan 2021",
+      "area": "Mountain View, CA",
+      "stack": "Angular, React, Node, Java, MongoDB, SQL, Express, Jest, AWS, and RESTful API's",
+      "summary": "Writing A/B experimentation software to validate new interfaces, designs, and experiments so that product owners deliver great experiences to users",
+      "highlights": [
+        "Fully re-engineering and re-designing our platform UI front end stack to React from the ground up",
+        "Full-stack software engineer providing our thousands of Intuit engineers, product managers, and marketers the tools of experimentation to help create winning solutions for their customers"
       ]
     },
     {
@@ -52,7 +68,8 @@
       "stack": "React, React Native, Ruby on Rails, JavaScript, RSpec, AWS, GraphQL, and RESTful API's",
       "summary": "Worked primarily on the Full Stack using React Native on the front-end and Ruby on Rails for the back-end",
       "highlights": [
-        "Created API endpoints to allow users to upload and share photos across two independent applications",
+        "Worked Full-Stack, primarily using React Native and Ruby on Rails",
+        "Created APIs to allow users to upload and share photos across two independent applications",
         "Wrote comprehensive integration and unit tests for new features built for the iOS and Android applications"
       ]
     },
@@ -66,6 +83,7 @@
       "stack": "JavaScript, React, Java, Node, AWS, Selenium, and RESTful API's",
       "summary": "Backend engineer speeding login times for Intuit Online customers using Java",
       "highlights": [
+        "Backend engineer speeding login times for Intuit Online customers using Java",
         "Testing comprehensive user interfaces on the frontend using automation technologies such as Selenium and React-based frameworks"
       ]
     },
@@ -79,6 +97,7 @@
       "stack": "Stack:​ .NET, C#, Visual Studio, Angular 2, Selenium, and JavaScript",
       "summary": "Developed automated software used by U.S. Bank engineers nationwide",
       "highlights": [
+        "Developed automated software used by U.S. Bank engineers nationwide",
         "Created comprehensive unit test plans and test cases in Selenium and JavaScript frameworks"
       ]
     }
@@ -94,17 +113,24 @@
       "highlights": [""]
     }
   ],
-  "education": [
-    {
-      "institution": "University of Minnesota - Twin Cities",
-      "major": "Computer Science",
-      "degree": "Bachelor",
-      "startDate": "",
-      "endDate": "2019-05-01",
-      "gpa": "",
-      "courses": [""]
-    }
-  ],
+  "education": {
+    "institution": "University of Minnesota - Twin Cities",
+    "location": "Minneapolis, MN",
+    "major": "Computer Science",
+    "degree": "Bachelor of Arts",
+    "startDate": "",
+    "endDate": "May 2019",
+    "gpa": "",
+    "courses": [
+      "Introduction to C/C++ Programming for Scientists and Engineers",
+      "Introduction to Algorithms, Data Structures, and Program Development",
+      "Advanced Programming Principles",
+      "Algorithms and Data Structures",
+      "Program Design and Development",
+      "Discrete Structures",
+      "Linear Algebra, Statistics, Calculus I & II, Physics I & II, and Chemistry"
+    ]
+  },
   "projects": [
     {
       "title": "React Weather App",
@@ -123,6 +149,7 @@
   ],
   "leadership": [
     {
+      "type": "leadership",
       "title": "Code2040 Fellow and Senior Fellow",
       "startDate": "Jun 2018",
       "endDate": "Aug 2019",
@@ -132,13 +159,37 @@
       ]
     },
     {
+      "type": "leadership",
       "title": "President of the Somali Student Association at the University of Minnesota",
       "startDate": "May 2016",
       "endDate": "May 2017",
       "highlights": [
-        "Led and delegated 9 executive board members. Organized over 20 events throughout the school year ",
-        "Handled a budget of over $25,000 and organized the largest event in SSA history, bringing in record 2,000 attendees for the annual Somali Culture Night and raised over $10,000 for Humanitarian Aid in Somalia"
+        "Led a team of 9 students",
+        "Handled a budget of over $25,000",
+        "Organized over a dozen of events that brought in thousands of students and community members from the greater Twin Cities area",
+        "Led an effort to raise over $7,000 for Somali Famine relief in partnership with the American Relief Agency for the Horn of Africa during our annual Somali Culture Night that brought in a record 1,500 attendees"
       ]
+    },
+    {
+      "type": "volunteer",
+      "title": "Feed My Starving Children",
+      "startDate": "Jul 2017",
+      "endDate": "Jul 2017",
+      "highlights": []
+    },
+    {
+      "type": "volunteer",
+      "title": "Kenya Red Cross",
+      "startDate": "May 2011",
+      "endDate": "Aug 2011",
+      "highlights": []
+    },
+    {
+      "type": "volunteer",
+      "title": "Habitat for Humanity",
+      "startDate": "",
+      "endDate": "",
+      "highlights": []
     }
   ],
   "publications": [
@@ -212,10 +263,9 @@
     }
   ],
   "interests": [
-    {
-      "name": "",
-      "keywords": ["", ""]
-    }
+    "What I love the most about what I do is that I have a chance everyday to build great, user-friendly products that are focused on simplicty, effectiveness, and functionality. My options are wide in terms of industry, but I want to work in an environment that puts design first. I have the training and drive to learn about design on the front-end and back-end that will always keep me ahead of the curve.",
+    "Apart from being a developer, I enjoy most of my time playing sports. During the warmer months, I love to play football, ultimate frisbee, and volleyball. In the winter, my friends and I play indoor basketball. I'm also a Vikings and Timberwolves super-fan, I really enjoy watching them play during the season.",
+    "I also enjoy the indoors, my favorite things to do are play games with friends, watch great film and shows, and I spend a lot of my free time learning new technologies and catching up on the worlds news."
   ],
   "references": [
     {

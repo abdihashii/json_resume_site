@@ -73,7 +73,7 @@ const Navbar = () => {
         >
           <li>Leadership</li>
         </Link>
-        <Link
+        {/* <Link
           className="navbar-link"
           duration="1000"
           smooth="easeInOutQuint"
@@ -81,7 +81,7 @@ const Navbar = () => {
           spy={true}
         >
           <li>Interests</li>
-        </Link>
+        </Link> */}
       </ul>
     </nav>
   );

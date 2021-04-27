@@ -27,7 +27,7 @@ const Resume = () => {
 
       <Leadership />
 
-      <Interests />
+      {/* <Interests /> */}
     </div>
   );
 };

@@ -11,7 +11,7 @@ import { ResumeContextProvider } from '../Contexts/ResumeContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.scss';
 import 'devicon/devicon.min.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Home = () => {
   return (

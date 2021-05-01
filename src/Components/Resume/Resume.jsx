@@ -7,7 +7,7 @@ import Skills from './Skills/Skills';
 import Projects from './Projects/Projects';
 import Education from './Education/Education';
 import Leadership from './Leadership/Leadership';
-import Interests from './Interests/Interests';
+// import Interests from './Interests/Interests';
 
 // CSS
 import './resume.scss';

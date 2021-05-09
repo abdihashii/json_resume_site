@@ -1,23 +1,33 @@
 import React from 'react';
 
 // Components
-import Title from './Title/Title';
-import Avatar from './Avatar/Avatar';
+import About from './About/About';
 import Experience from './Experience/Experience';
 import Skills from './Skills/Skills';
+import Projects from './Projects/Projects';
+import Education from './Education/Education';
+import Leadership from './Leadership/Leadership';
+// import Interests from './Interests/Interests';
 
 // CSS
 import './resume.scss';
 
 const Resume = () => {
   return (
-    <div className="resume-wrapper">
-      <div className="resume-grid">
-        <Title />
-        <Avatar />
-        <Experience />
-        <Skills />
-      </div>
+    <div className="content">
+      <About />
+
+      <Experience />
+
+      <Skills />
+
+      <Projects />
+
+      <Education />
+
+      <Leadership />
+
+      {/* <Interests /> */}
     </div>
   );
 };

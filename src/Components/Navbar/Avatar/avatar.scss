@@ -1,0 +1,8 @@
+.avatar {
+  grid-area: avatar;
+
+  img {
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+  }
+}

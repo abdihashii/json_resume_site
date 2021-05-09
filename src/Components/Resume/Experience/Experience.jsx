@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
 
+// External components
+import { Element } from 'react-scroll';
+
 // Components
 import ExperienceRow from './ExperienceRow';
-import ProjectRow from './ProjectRow';
 
 // Contexts
 import { ResumeContext } from '../../../Contexts/ResumeContext';
@@ -11,20 +13,18 @@ import { ResumeContext } from '../../../Contexts/ResumeContext';
 import './experience.scss';
 
 const Experience = () => {
-  const { experiences, projects } = useContext(ResumeContext);
+  const { experiences } = useContext(ResumeContext);
 
   return (
-    <div className="experience">
-      <p className="experience-title">Experience</p>
-      {experiences.map((experience, key) => {
-        return <ExperienceRow {...{ key }} {...{ experience }} />;
-      })}
+    <Element className="resume-section" name="experience">
+      <div className="resume-content">
+        <h2 className="mb-5">Experience</h2>
 
-      <p className="experience-title">Projects</p>
-      {projects.map((project, key) => {
-        return <ProjectRow {...{ key }} {...{ project }} />;
-      })}
-    </div>
+        {experiences.map((experience, key) => {
+          return <ExperienceRow {...{ key }} {...{ experience }} />;
+        })}
+      </div>
+    </Element>
   );
 };
 

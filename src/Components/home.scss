@@ -1,8 +1,147 @@
-body {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Saira+Extra+Condensed:wght@400;500;600;700&text=1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%20&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css');
+
+* {
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.home {
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  padding-left: 17rem;
+  font-family: 'Open Sans', serif;
+  color: #868e96;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+a {
+  color: #594157;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #824027;
+  text-decoration: underline;
+}
+
+.text-primary {
+  color: #594157 !important;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 17rem;
+  height: 100vh;
+
+  background-color: #594157;
+
+  .navbar-avatar,
+  .navbar-link {
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+
+  .navbar-avatar {
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+
+    list-style: none;
+
+    text-align: center;
+
+    .navbar-link {
+      display: block;
+      text-transform: uppercase;
+      line-height: 1.5;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      color: rgba(255, 255, 255, 0.5);
+
+      &:hover {
+        color: rgba(255, 255, 255, 0.75);
+      }
+    }
+
+    .active {
+      color: #fff;
+    }
+  }
+}
+
+.content {
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  .resume-section {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem;
+
+    border-bottom: 1px solid #dee2e6;
+
+    .resume-content {
+      margin: auto 0;
+
+      .subheading {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: 'Saira Extra Condensed', serif;
+        font-size: 1.35rem;
+      }
+
+      .resume-item {
+        ul {
+          padding-inline-start: 2.5rem;
+        }
+      }
+    }
+  }
 }

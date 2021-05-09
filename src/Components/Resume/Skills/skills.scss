@@ -1,31 +1,21 @@
-.skills-panel {
-  color: #73808d;
-  grid-area: skills;
+.list-inline {
+  padding-left: 0;
+  margin-bottom: 1rem;
+  list-style: none;
 
-  .skills-basics {
-    margin-bottom: 40px;
+  .list-inline-item {
+    display: inline-block;
 
-    * {
-      margin: 10px 0px 0px;
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+
+    i:hover {
+      color: #594157;
     }
   }
+}
 
-  .skill-row {
-    margin-bottom: 25px;
-
-    * {
-      margin: 0;
-    }
-
-    .skill-title {
-      font-weight: bold;
-      font-size: 1.25rem;
-    }
-
-    .skill-keyword {
-      margin-top: 8px;
-      line-height: 35px;
-      font-size: 1rem;
-    }
-  }
+.list-icons {
+  font-size: 3rem;
 }

@@ -1,33 +1,29 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
-// Components
-import SkillRow from './SkillRow';
+// External components
+import { Element } from 'react-scroll';
 
-// Contexts
-import { ResumeContext } from '../../../Contexts/ResumeContext';
+// Internal components
+import ProgrammingLanguages from './ProgrammingLanguages';
+import ToolsAndFrameworks from './ToolsAndFrameworks';
+import Workflow from './Workflow';
 
 // CSS
 import './skills.scss';
 
 const Skills = () => {
-  const { email, phone, website, area, skills } = useContext(ResumeContext);
-
   return (
-    <div className="skills-panel">
-      <div className="skills-basics">
-        <p>{email}</p>
-        <p>{phone}</p>
-        <p>
-          <a href={`${website}`} rel="noreferrer" target="_blank">
-            abdirahmanhaji.com
-          </a>
-        </p>
-        <p>{area}</p>
+    <Element className="resume-section" name="skills">
+      <div className="resume-content">
+        <h2 className="mb-5">Skills</h2>
+
+        <ProgrammingLanguages />
+
+        <ToolsAndFrameworks />
+
+        <Workflow />
       </div>
-      {skills.map((skill, key) => {
-        return <SkillRow {...{ key }} {...{ skill }} />;
-      })}
-    </div>
+    </Element>
   );
 };
 

@@ -1,0 +1,31 @@
+.projects-list {
+  gap: 2rem;
+
+  .project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 12rem;
+    max-height: 16rem;
+    width: calc(33.33333% - 2rem);
+
+    // border: 1px solid gray;
+    // border-radius: 10px;
+
+    &:hover {
+      cursor: pointer;
+      // border-color: red;
+
+      background-color: green;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+ul {
+  padding-inline-start: 2.5rem;
+}

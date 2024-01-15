@@ -1,0 +1,56 @@
+---
+interface Experience {
+	company: string;
+	position: string;
+	website: string;
+	startDate: string;
+	endDate: string;
+	area: string;
+	stack: string;
+	summary: string;
+	highlights: string[];
+}
+
+interface Props {
+	experience: Experience;
+}
+
+const { experience } = Astro.props;
+---
+
+<article class="flex flex-row mb-5">
+	<div class="mr-auto text-gray-500">
+		<!-- Position -->
+		<h3 class="mb-0">{experience.position}</h3>
+
+		<!-- Company -->
+		<p
+			class="uppercase font-medium text-[1.35rem]"
+			style="font-family: 'Saira Extra Condensed', sans-serif;"
+		>
+			{experience.company}
+		</p>
+
+		<!-- Area -->
+		<p class="mb-4">{experience.area}</p>
+
+		<!-- Stack -->
+		<p class="mb-4">
+			<span class="font-semibold">Stack:</span>
+			{experience.stack}
+		</p>
+
+		<!-- Highlights -->
+		<ul class="pl-10">
+			{
+				experience.highlights.map((highlight) => (
+					<li class="list-disc">{highlight}</li>
+				))
+			}
+		</ul>
+	</div>
+
+	<div class="text-[#594157] min-w-72 text-right">
+		<p>{experience.startDate} - {experience.endDate}</p>
+	</div>
+</article>

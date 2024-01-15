@@ -1,0 +1,291 @@
+{
+	"basics": {
+		"name": "Abdirahman Haji",
+		"label": "Software Engineer",
+		"picture": "",
+		"email": "abdirahman.haji.13@gmail.com",
+		"email2": "haji@abdirahmanhaji.com",
+		"phone": "+1 (952) 215-7370",
+		"website": "https://abdirahmanhaji.com",
+		"summary": "I am a professional Software Engineer spending my time between the Bay Area and the Twin Cities. Currently, I am a Software Engineer at Intuit as a full-stack engineer working to create efficient user interfaces and experiences. My passions are in UI and UX. I love to build beautiful products that are easy and fun to use.",
+		"area": "San Francisco Bay Area",
+		"location": {
+			"address": "15233 Galante Ln",
+			"postalCode": "MN 55124",
+			"city": "Apple Valley",
+			"countryCode": "US",
+			"region": "Minnesota"
+		},
+		"profiles": [
+			{
+				"network": "Github",
+				"username": "abdihashii",
+				"url": "https://github.com/abdihashii"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "abdirahman-haji",
+				"url": "https://linkedin.com/in/abdirahman-haji"
+			}
+		]
+	},
+	"experiences": [
+		{
+			"company": "Google",
+			"position": "Software Engineer III",
+			"website": "",
+			"startDate": "Aug 2021",
+			"endDate": "Present",
+			"area": "Chicago, IL",
+			"stack": "JavaScript, Java",
+			"summary": "",
+			"highlights": [
+				"Helped pioneer the transition from monolithic architecture to micro-frontends for Google Search features, enhancing modularity.",
+				"Led JavaScript/TypeScript infrastructure enhancements for improved efficiency and load times; collaborated for robust, scalable solutions.",
+				"Developed an AI-driven UI Agent, streamlining the creation of Google Search features and enhancing user experience."
+			]
+		},
+		{
+			"company": "Intuit",
+			"position": "Software Engineer II",
+			"website": "",
+			"startDate": "Feb 2021",
+			"endDate": "Jul 2021",
+			"area": "Mountain View, CA",
+			"stack": "Angular, React, Node, Java, MongoDB, SQL, Express, Jest, AWS, and RESTful API's",
+			"summary": "Writing A/B experimentation software to validate new interfaces, designs, and experiments so that product owners deliver great experiences to users",
+			"highlights": [
+				"Fully re-engineering and re-designing our platform UI front end stack to React from the ground up",
+				"Full-stack software engineer providing our thousands of Intuit engineers, product managers, and marketers the tools of experimentation to help create winning solutions for their customers"
+			]
+		},
+		{
+			"company": "Intuit",
+			"position": "Software Engineer",
+			"website": "",
+			"startDate": "Aug 2019",
+			"endDate": "Jan 2021",
+			"area": "Mountain View, CA",
+			"stack": "Angular, React, Node, Java, MongoDB, SQL, Express, Jest, AWS, and RESTful API's",
+			"summary": "Writing A/B experimentation software to validate new interfaces, designs, and experiments so that product owners deliver great experiences to users",
+			"highlights": [
+				"Fully re-engineering and re-designing our platform UI front end stack to React from the ground up",
+				"Full-stack software engineer providing our thousands of Intuit engineers, product managers, and marketers the tools of experimentation to help create winning solutions for their customers"
+			]
+		},
+		{
+			"company": "TaskRabbit",
+			"position": "Software Engineer Intern",
+			"website": "",
+			"startDate": "May 2019",
+			"endDate": "Aug 2019",
+			"area": "San Francisco, CA",
+			"stack": "React, React Native, Ruby on Rails, JavaScript, RSpec, AWS, GraphQL, and RESTful API's",
+			"summary": "Worked primarily on the Full Stack using React Native on the front-end and Ruby on Rails for the back-end",
+			"highlights": [
+				"Worked Full-Stack, primarily using React Native and Ruby on Rails",
+				"Created APIs to allow users to upload and share photos across two independent applications",
+				"Wrote comprehensive integration and unit tests for new features built for the iOS and Android applications"
+			]
+		},
+		{
+			"company": "Intuit",
+			"position": "Software Engineer Intern",
+			"website": "",
+			"startDate": "May 2018",
+			"endDate": "Aug 2018",
+			"area": "Mountain View, CA",
+			"stack": "JavaScript, React, Java, Node, AWS, Selenium, and RESTful API's",
+			"summary": "Backend engineer speeding login times for Intuit Online customers using Java",
+			"highlights": [
+				"Backend engineer speeding login times for Intuit Online customers using Java",
+				"Testing comprehensive user interfaces on the frontend using automation technologies such as Selenium and React-based frameworks"
+			]
+		},
+		{
+			"company": "U.S. Bank",
+			"position": "Software Engineer Intern",
+			"website": "",
+			"startDate": "May 2017",
+			"endDate": "Aug 2017",
+			"area": "St. Paul, MN",
+			"stack": "Stack:​ .NET, C#, Visual Studio, Angular 2, Selenium, and JavaScript",
+			"summary": "Developed automated software used by U.S. Bank engineers nationwide",
+			"highlights": [
+				"Developed automated software used by U.S. Bank engineers nationwide",
+				"Created comprehensive unit test plans and test cases in Selenium and JavaScript frameworks"
+			]
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "",
+			"position": "",
+			"website": "",
+			"startDate": "",
+			"endDate": "",
+			"summary": "Summary...",
+			"highlights": [""]
+		}
+	],
+	"education": {
+		"institution": "University of Minnesota - Twin Cities",
+		"location": "Minneapolis, MN",
+		"major": "Computer Science",
+		"degree": "Bachelor of Arts",
+		"startDate": "",
+		"endDate": "May 2019",
+		"gpa": "",
+		"courses": [
+			"Introduction to C/C++ Programming for Scientists and Engineers",
+			"Introduction to Algorithms, Data Structures, and Program Development",
+			"Advanced Programming Principles",
+			"Algorithms and Data Structures",
+			"Program Design and Development",
+			"Discrete Structures",
+			"Linear Algebra, Statistics, Calculus I & II, Physics I & II, and Chemistry"
+		]
+	},
+	"projects": [
+		{
+			"title": "React Weather App",
+			"date": "",
+			"summary": "React, Node, HTML, CSS, JavaScript, and AWS",
+			"repo": "git.io/fjdRz",
+			"link": "https://git.io/fjdRz"
+		},
+		{
+			"title": "Internet of Things Smart Home Controller",
+			"date": "",
+			"summary": "C++, JavaScript, and PHP",
+			"repo": "git.io/fj93n",
+			"link": "https://git.io/fj93n"
+		}
+	],
+	"leadership": [
+		{
+			"type": "leadership",
+			"title": "Code2040 Fellow and Senior Fellow",
+			"startDate": "Jun 2018",
+			"endDate": "Aug 2019",
+			"highlights": [
+				"10-week career accelerator working with Black and Latinx college-level computer science students from around the country in an intensive summer in the San Francisco Bay Area, New York, and Portland areas",
+				"Completed two summers of this program in the San Francisco Bay Area"
+			]
+		},
+		{
+			"type": "leadership",
+			"title": "President of the Somali Student Association at the University of Minnesota",
+			"startDate": "May 2016",
+			"endDate": "May 2017",
+			"highlights": [
+				"Led a team of 9 students",
+				"Handled a budget of over $25,000",
+				"Organized over a dozen of events that brought in thousands of students and community members from the greater Twin Cities area",
+				"Led an effort to raise over $7,000 for Somali Famine relief in partnership with the American Relief Agency for the Horn of Africa during our annual Somali Culture Night that brought in a record 1,500 attendees"
+			]
+		},
+		{
+			"type": "volunteer",
+			"title": "Feed My Starving Children",
+			"startDate": "Jul 2017",
+			"endDate": "Jul 2017",
+			"highlights": []
+		},
+		{
+			"type": "volunteer",
+			"title": "Kenya Red Cross",
+			"startDate": "May 2011",
+			"endDate": "Aug 2011",
+			"highlights": []
+		},
+		{
+			"type": "volunteer",
+			"title": "Habitat for Humanity",
+			"startDate": "",
+			"endDate": "",
+			"highlights": []
+		}
+	],
+	"publications": [
+		{
+			"name": "",
+			"publisher": "",
+			"releaseDate": "",
+			"website": "",
+			"summary": ""
+		}
+	],
+	"skills": [
+		{
+			"title": "Languages",
+			"keywords": ["JavaScript", "HTML", "CSS", "Python", "Ruby", "Java", "SQL"]
+		},
+		{
+			"title": "Frameworks/Libraries",
+			"keywords": [
+				"React",
+				"React-Native",
+				"Angular",
+				"Gatsby",
+				"NextJs",
+				"Rails"
+			]
+		},
+		{
+			"title": "Tools",
+			"keywords": ["Git", "Jenkins", "JIRA", "GitHub"]
+		},
+		{
+			"title": "Database Technologies",
+			"keywords": ["MySQL", "MongoDB"]
+		},
+		{
+			"title": "Technologies",
+			"keywords": ["RESTful APIs", "GraphQL"]
+		},
+		{
+			"title": "Cloud",
+			"keywords": ["AWS", "Netlify", "Heroku"]
+		},
+		{
+			"title": "Specialties",
+			"keywords": [
+				"Agile Methodologies",
+				"Test Driven Development",
+				"Object Oriented Programming",
+				"Leadership",
+				"Teamwork"
+			]
+		},
+		{
+			"title": "Platforms",
+			"keywords": ["Unix", "Linux", "MacOS"]
+		}
+	],
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native"
+		},
+		{
+			"language": "Somali",
+			"fluency": "Native"
+		},
+		{
+			"language": "Arabic",
+			"fluency": "Proficient"
+		}
+	],
+	"interests": [
+		"What I love the most about what I do is that I have a chance everyday to build great, user-friendly products that are focused on simplicty, effectiveness, and functionality. My options are wide in terms of industry, but I want to work in an environment that puts design first. I have the training and drive to learn about design on the front-end and back-end that will always keep me ahead of the curve.",
+		"Apart from being a developer, I enjoy most of my time playing sports. During the warmer months, I love to play football, ultimate frisbee, and volleyball. In the winter, my friends and I play indoor basketball. I'm also a Vikings and Timberwolves super-fan, I really enjoy watching them play during the season.",
+		"I also enjoy the indoors, my favorite things to do are play games with friends, watch great film and shows, and I spend a lot of my free time learning new technologies and catching up on the worlds news."
+	],
+	"references": [
+		{
+			"name": "",
+			"reference": ""
+		}
+	]
+}

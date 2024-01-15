@@ -37,7 +37,7 @@
 			"startDate": "Aug 2021",
 			"endDate": "Present",
 			"area": "Chicago, IL",
-			"stack": "JavaScript, Java",
+			"stack": "JavaScript, TypeScript, Java, RPC",
 			"summary": "",
 			"highlights": [
 				"Helped pioneer the transition from monolithic architecture to micro-frontends for Google Search features, enhancing modularity.",

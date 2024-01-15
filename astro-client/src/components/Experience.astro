@@ -1,23 +1,13 @@
 ---
 import resume from '../data/resume.json';
 import ExperienceRow from './ExperienceRow.astro';
+import SectionLayout from './SectionLayout.astro';
 
 const { experiences } = resume;
 ---
 
-<section
-	id="experience"
-	class="min-h-screen p-12 border border-[#dee2e6] flex justify-center items-center"
->
-	<div class="2xl:w-2/3 w-full">
-		<h2 class="mb-12">Experience</h2>
-
-		<div class="space-y-12">
-			{
-				experiences.map((experience) => (
-					<ExperienceRow experience={experience} />
-				))
-			}
-		</div>
+<SectionLayout title="Experience">
+	<div class="space-y-12">
+		{experiences.map((experience) => <ExperienceRow experience={experience} />)}
 	</div>
-</section>
+</SectionLayout>

@@ -31,11 +31,26 @@
   },
   "experiences": [
     {
+      "company": "Google",
+      "position": "Software Engineer III",
+      "website": "",
+      "startDate": "Aug 2021",
+      "endDate": "Present",
+      "area": "Chicago, IL",
+      "stack": "JavaScript, Java",
+      "summary": "",
+      "highlights": [
+        "Helped pioneer the transition from monolithic architecture to micro-frontends for Google Search features, enhancing modularity.",
+        "Led JavaScript/TypeScript infrastructure enhancements for improved efficiency and load times; collaborated for robust, scalable solutions.",
+        "Developed an AI-driven UI Agent, streamlining the creation of Google Search features and enhancing user experience."
+      ]
+    },
+    {
       "company": "Intuit",
       "position": "Software Engineer II",
       "website": "",
       "startDate": "Feb 2021",
-      "endDate": "Present",
+      "endDate": "Jul 2021",
       "area": "Mountain View, CA",
       "stack": "Angular, React, Node, Java, MongoDB, SQL, Express, Jest, AWS, and RESTful API's",
       "summary": "Writing A/B experimentation software to validate new interfaces, designs, and experiments so that product owners deliver great experiences to users",

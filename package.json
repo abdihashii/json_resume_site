@@ -11,7 +11,7 @@
     "imagekitio-react": "^1.0.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.2",
     "react-tooltip": "^4.2.18",
     "sass": "^1.54.9",

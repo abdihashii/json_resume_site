@@ -1,0 +1,13 @@
+---
+import resume from '../data/resume.json';
+import ExperienceRow from './ExperienceRow.astro';
+import SectionLayout from './SectionLayout.astro';
+
+const { experiences } = resume;
+---
+
+<SectionLayout title="Experience" slug="experience">
+	<div class="space-y-12">
+		{experiences.map((experience) => <ExperienceRow experience={experience} />)}
+	</div>
+</SectionLayout>

@@ -1,0 +1,19 @@
+---
+interface Props {
+	title: string;
+	slug: string;
+}
+
+const { title, slug } = Astro.props;
+---
+
+<section
+	id={slug}
+	class="min-h-screen p-12 border border-[#dee2e6] flex justify-center items-center"
+>
+	<div class="2xl:w-2/3 w-full">
+		<h2 class="mb-12">{title}</h2>
+
+		<slot />
+	</div>
+</section>

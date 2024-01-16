@@ -1,0 +1,48 @@
+---
+import SectionLayout from './SectionLayout.astro';
+
+import resumeJson from '../data/resume.json';
+
+const {
+	education: { institution, location, degree, major, endDate, courses },
+} = resumeJson;
+---
+
+<SectionLayout title="Education" slug="education">
+	<article class="flex flex-row justify-between mb-12">
+		<!-- Institution info -->
+		<div class="text-gray-500">
+			<h3 class="uppercase font-bold text-[1.75rem]">{institution}</h3>
+
+			<p
+				class="uppercase font-medium text-[1.35rem] mb-4"
+				style="font-family: 'Saira Extra Condensed', sans-serif;"
+			>
+				{location}
+			</p>
+
+			<p
+				class="uppercase font-medium text-[1.35rem]"
+				style="font-family: 'Saira Extra Condensed', sans-serif;"
+			>
+				{degree}
+			</p>
+
+			<p>{major}</p>
+		</div>
+
+		<!-- Graduation date -->
+		<div class="text-[#594157] min-w-72 text-right">
+			<p>Graduated: {endDate}</p>
+		</div>
+	</article>
+
+	<!-- Courses -->
+	<article class="text-gray-500 space-y-4">
+		<h3>Courses</h3>
+
+		<ul class="pl-10 list-disc">
+			{courses.map((course) => <li>{course}</li>)}
+		</ul>
+	</article>
+</SectionLayout>

@@ -1,0 +1,83 @@
+---
+import '@fontsource/open-sans/300.css';
+import '@fontsource/open-sans/400.css';
+import '@fontsource/open-sans/500.css';
+import '@fontsource/open-sans/600.css';
+import '@fontsource/open-sans/700.css';
+import '@fontsource/open-sans/800.css';
+import '@fontsource/saira-extra-condensed/500.css';
+import '@fontsource/saira-extra-condensed/700.css';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+		/>
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+	body {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Saira Extra Condensed', serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #343a40;
+	}
+
+	h1 {
+		font-size: 6rem;
+		line-height: 5.5rem;
+	}
+
+	h2 {
+		font-size: 3.5rem;
+	}
+
+	h3 {
+		font-size: 1.75rem;
+		line-height: 1.2;
+	}
+
+	a {
+		color: #594157;
+		text-decoration: none;
+	}
+
+	a:hover,
+	a:focus,
+	a:active {
+		color: #824027;
+		text-decoration: underline;
+	}
+</style>

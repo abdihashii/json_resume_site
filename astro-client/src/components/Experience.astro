@@ -6,7 +6,7 @@ import SectionLayout from './SectionLayout.astro';
 const { experiences } = resume;
 ---
 
-<SectionLayout title="Experience">
+<SectionLayout title="Experience" slug="experience">
 	<div class="space-y-12">
 		{experiences.map((experience) => <ExperienceRow experience={experience} />)}
 	</div>

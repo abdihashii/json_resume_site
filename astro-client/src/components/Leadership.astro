@@ -1,0 +1,29 @@
+---
+import resumeJson from '../data/resume.json';
+
+const { leadership } = resumeJson;
+
+import SectionLayout from './SectionLayout.astro';
+---
+
+<SectionLayout title="Leadership & Volunteering" slug="leadership">
+	<ul class="text-gray-500 pl-10 list-disc">
+		{
+			leadership.map((item) => (
+				<li>
+					{item.type === 'leadership' ? (
+						<i class="fa-li far fa-lightbulb" />
+					) : (
+						<i class="fa-li fa fa-heart text-info" />
+					)}
+					{item.title}
+					<ul class="pl-10 list-disc">
+						{item.highlights.map((highlight) => {
+							return <li>{highlight}</li>;
+						})}
+					</ul>
+				</li>
+			))
+		}
+	</ul>
+</SectionLayout>

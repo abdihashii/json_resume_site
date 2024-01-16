@@ -41,12 +41,8 @@ const { experience } = Astro.props;
 		</p>
 
 		<!-- Highlights -->
-		<ul class="pl-10">
-			{
-				experience.highlights.map((highlight) => (
-					<li class="list-disc">{highlight}</li>
-				))
-			}
+		<ul class="pl-10 list-disc">
+			{experience.highlights.map((highlight) => <li>{highlight}</li>)}
 		</ul>
 	</div>
 

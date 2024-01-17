@@ -1,0 +1,37 @@
+---
+import resumeJson from '../../data/resume.json';
+import SectionLayout from './SectionLayout.astro';
+
+const { projects } = resumeJson;
+---
+
+<SectionLayout title="Projects" slug="projects">
+	{
+		projects.map((project) => {
+			const { title, date, summary, repo, link } = project;
+
+			return (
+				<article class="text-gray-600 mb-12 last:mb-0 border-b border-b-gray-400 pb-4">
+					<h3>{title}</h3>
+
+					<p>Date: {date}</p>
+
+					<p class="my-4">{summary}</p>
+
+					{repo && (
+						<p>
+							Repo:
+							<a href={repo} target="_blank">
+								{repo}
+							</a>
+						</p>
+					)}
+
+					<a href={link} target="_blank">
+						Link/Demo
+					</a>
+				</article>
+			);
+		})
+	}
+</SectionLayout>

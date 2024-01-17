@@ -148,16 +148,94 @@
 	},
 	"projects": [
 		{
+			"title": "E-commerce Web App | Full-Stack",
+			"date": "December 2023",
+			"summary": "An end-to-end e-commerce web application built with React, Next14, Supabase, PostgreSQL, and tailwindcss",
+			"repo": "https://github.com/abdihashii/Furniro-e-commerce-app",
+			"link": "https://furniro-e-commerce-app.vercel.app/"
+		},
+		{
+			"title": "MyPrayerTimes.com",
+			"date": "August 2022 - Present",
+			"summary": "A passion project that I started in 2022. It's a web app that allows users to get prayer times for their location. Built with React, Gatsby, Google Places API, and tailwindcss",
+			"repo": "",
+			"link": "https://myprayertimes.com"
+		},
+		{
+			"title": "OpenSourced Resume Builder",
+			"date": "November 2020 - Present",
+			"summary": "An open-sourced resume builder that uses data from a JSON schema. Built with React, Astro, TypeScript, and tailwindcss",
+			"repo": "https://github.com/abdihashii/json_resume_site",
+			"link": "https://github.com/abdihashii/json_resume_site"
+		},
+		{
+			"title": "Real Time Direct Messaging App | Full-Stack",
+			"date": "October 2023",
+			"summary": "A real-time direct messaging app built with React, Next13, Supabase, PostgreSQL, Framer motion, Yup, Radix UI, Lucide react, custom hooks, and tailwindcss",
+			"repo": "https://github.com/abdihashii/direct-messaging-app",
+			"link": "https://github.com/abdihashii/direct-messaging-app"
+		},
+
+		{
+			"title": "Next13 Authentication and Authorization | Full-Stack",
+			"date": "September 2023",
+			"summary": "A full-stack authentication and authorization system built with React, Next13, Supabase, Custom hooks, Yup, and tailwindcss",
+			"repo": "https://github.com/abdihashii/next13-supabase-auth",
+			"link": "https://github.com/abdihashii/next13-supabase-auth"
+		},
+		{
+			"title": "Authentication and Authorization UI | Full-Stack",
+			"date": "August 2023",
+			"summary": "A UI for authentication and authorization built with React, Next13, Supabase, Jotai, Figma, and tailwindcss",
+			"repo": "https://github.com/abdihashii/fun-sign-in-ui",
+			"link": "https://github.com/abdihashii/fun-sign-in-ui"
+		},
+		{
+			"title": "Personal Fitness Tracker",
+			"date": "August 2023",
+			"summary": "My personal fitness tracking system. Built with React, Next13, Jotai, tailwindcss, and TypeScript",
+			"repo": "https://github.com/abdihashii/personal-fitness-tracker",
+			"link": "https://github.com/abdihashii/personal-fitness-tracker"
+		},
+		{
+			"title": "LangChain AI URL Summarizer",
+			"date": "May 2023",
+			"summary": "A text summarizer tool that takes URLs as input and returns a summary of the article. Built with OpenAI, GPT-4, Node, Express, TensorFlow, and LangChain",
+			"repo": "https://github.com/abdihashii/summarization-practice",
+			"link": "https://github.com/abdihashii/summarization-practice"
+		},
+		{
+			"title": "Task Manager App with Drag and Drop functionality",
+			"date": "March 2023",
+			"summary": "React, Next13, TypeScript, tailwindcss, Drag and Drop",
+			"repo": "https://github.com/abdihashii/task-management-app",
+			"link": "https://github.com/abdihashii/task-management-app"
+		},
+		{
+			"title": "foodMN",
+			"date": "November 2019",
+			"summary": "An end-to-end curated restaurant directory App for the Twin Cities built with React, custom hooks, MongoDB, Node, and Express",
+			"repo": "https://github.com/abdihashii/foodMN",
+			"link": "https://github.com/abdihashii/foodMN"
+		},
+		{
 			"title": "React Weather App",
-			"date": "",
-			"summary": "React, Node, HTML, CSS, JavaScript, and AWS",
+			"date": "August 2018",
+			"summary": "First ever exposure to React. I built a weather app that displays the current weather in any city in the world using the openweathermap API. This project was built using React, Create-React-App, and the openweathermap API",
 			"repo": "git.io/fjdRz",
 			"link": "https://git.io/fjdRz"
 		},
 		{
+			"title": "Smart Garage Control",
+			"date": "June 2016",
+			"summary": "A personal project in the IoT space that I built with C++, JavaScript, HTML, and CSS",
+			"repo": "https://github.com/abdihashii/garage-control",
+			"link": "https://github.com/abdihashii/garage-control"
+		},
+		{
 			"title": "Internet of Things Smart Home Controller",
-			"date": "",
-			"summary": "C++, JavaScript, and PHP",
+			"date": "January 2016",
+			"summary": "This project was my first exposure to IoT during my coursework in Computer Engineering at the University of Minnesota. It was built with C++, JavaScript, HTML, CSS, and PHP",
 			"repo": "git.io/fj93n",
 			"link": "https://git.io/fj93n"
 		}

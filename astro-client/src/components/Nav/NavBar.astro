@@ -13,7 +13,7 @@ import Avatar from './Avatar.astro';
 		<li>
 			<a
 				href="#about"
-				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)] active:text-white"
+				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)]"
 				>About</a
 			>
 		</li>
@@ -21,7 +21,7 @@ import Avatar from './Avatar.astro';
 		<li>
 			<a
 				href="#projects"
-				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)] active:text-white"
+				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)]"
 				>Projects</a
 			>
 		</li>
@@ -29,7 +29,7 @@ import Avatar from './Avatar.astro';
 		<li>
 			<a
 				href="#experience"
-				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)] active:text-white"
+				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)]"
 				>Experience</a
 			>
 		</li>
@@ -37,7 +37,7 @@ import Avatar from './Avatar.astro';
 		<li>
 			<a
 				href="#skills"
-				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)] active:text-white"
+				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)]"
 				>Skills</a
 			>
 		</li>
@@ -45,7 +45,7 @@ import Avatar from './Avatar.astro';
 		<li>
 			<a
 				href="#education"
-				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)] active:text-white"
+				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)]"
 				>Education</a
 			>
 		</li>
@@ -53,7 +53,7 @@ import Avatar from './Avatar.astro';
 		<li>
 			<a
 				href="#leadership"
-				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)] active:text-white"
+				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)]"
 				>Leadership</a
 			>
 		</li>
@@ -61,9 +61,48 @@ import Avatar from './Avatar.astro';
 		<li>
 			<a
 				href="#contact"
-				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)] active:text-white"
+				class="block uppercase leading-6 font-semibold px-2 py-4 text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.75)]"
 				>Contact</a
 			>
 		</li>
 	</ul>
 </nav>
+
+<script>
+	// Wait for the DOM to fully load before running this script
+	document.addEventListener('DOMContentLoaded', () => {
+		const navLinks = document.querySelectorAll('nav ul li a');
+
+		// Update active link based on the current hash
+		const updateActiveLink = (hash: string) => {
+			navLinks.forEach((link) => {
+				// Remove the active class from all links
+				link.classList.remove('text-white');
+
+				// Check if the hash is empty and the anchor tag is the about link
+				if (hash === '' && link.getAttribute('href') === '#about') {
+					link.classList.add('text-white');
+				} else if (link.getAttribute('href') === hash) {
+					link.classList.add('text-white');
+				}
+			});
+		};
+
+		// Update active link on click
+		navLinks.forEach((link) => {
+			link.addEventListener('click', function (event) {
+				const target = event?.currentTarget as HTMLAnchorElement;
+
+				updateActiveLink(target.getAttribute('href') as string);
+			});
+		});
+
+		// Listen for changes in the URL hash
+		window.addEventListener('hashchange', () => {
+			updateActiveLink(window.location.hash);
+		});
+
+		// Initialize active link state based on the current hash
+		updateActiveLink(window.location.hash);
+	});
+</script>
